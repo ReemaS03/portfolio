@@ -7,6 +7,9 @@ body {
     margin-inline: max(1em, (100% - 100ch) / 2);
     padding: 1em;
 }
+
+/* Step 2: */
+
 :root {
     --color-accent: oklch(65% 50% 240); 
 }
@@ -50,6 +53,8 @@ nav a:hover {
     background-color: oklch(from var(--color-accent) 95% 5% h)
 }
 
+/* Step 3: */
+
 form {
     display: grid;
     grid-template-columns: auto 1fr; 
@@ -68,4 +73,26 @@ input, textarea {
 button {
     font: inherit;
     grid-column: 1 / -1; 
+}
+
+/* Step 4: */
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 1em;
+}
+
+article {
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+
+h2 {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    text-wrap: balance;
 }
