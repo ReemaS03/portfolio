@@ -15,9 +15,9 @@ function $$(selector, context = document) {
 let pages = [
     { url: 'https://github.com/ReemaS03', title: 'GitHub Profile' },
     { url: '', title: 'Home' },
-    { url: 'projects/', title: 'Projects' },
-    { url: 'resume/', title: 'Resume' },
-    { url: 'contact/', title: 'Contact' }
+    { url: '/projects/', title: 'Projects' },
+    { url: '/resume/', title: 'Resume' },
+    { url: '/contact/', title: 'Contact' }
   ];
 
 let nav = document.createElement('nav');
@@ -38,8 +38,9 @@ for (let p of pages) {
     if (a.host === location.host && a.pathname === location.pathname) {
         a.classList.add('current');
     }
+
     if (a.host !== location.host) {
-    a.target = '_blank';
+        a.target = '_blank';
     }
   }
 
