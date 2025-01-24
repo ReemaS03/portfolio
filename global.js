@@ -14,10 +14,10 @@ function $$(selector, context = document) {
 
 let pages = [
     { url: 'https://github.com/ReemaS03', title: 'GitHub Profile' },
-    { url: '/', title: 'Home' },
-    { url: '/projects/', title: 'Projects' },
-    { url: '/resume/', title: 'Resume' },
-    { url: '/contact/', title: 'Contact' }
+    { url: '', title: 'Home' },
+    { url: 'projects/', title: 'Projects' },
+    { url: 'resume/', title: 'Resume' },
+    { url: 'contact/', title: 'Contact' }
   ];
 
 let nav = document.createElement('nav');
