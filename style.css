@@ -6,10 +6,14 @@ body {
     max-width: 100ch;
     margin-inline: max(1em, (100% - 100ch) / 2);
     padding: 1em;
+    color: canvastext; 
+    background-color: canvas;
 }
 
 :root {
     --color-accent: oklch(65% 50% 240); 
+    border-bottom-color: oklch(50% 10% 200 / 40%);
+    color-scheme: light dark;
 }
 
 html {
@@ -21,7 +25,9 @@ nav {
     margin-bottom: 2em;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: oklch(80% 3% 200);
+    /* border-bottom-color: oklch(80% 3% 200); */
+    --border-color: oklch(50% 10% 200 / 40%);
+    border-bottom-color: var(--border-color);
 }
 
 nav ul, nav li {
@@ -38,7 +44,8 @@ nav a {
 
 nav a.current {
     padding-bottom: 0.4em;
-    border-bottom-color: oklch(80% 3% 200);
+    /* border-bottom-color: oklch(80% 3% 200); */
+    border-bottom-color: var(--border-color);
     border-bottom-style: solid;
     border-bottom-width: 0.4em;
 }
@@ -48,7 +55,8 @@ nav a:hover {
     border-bottom-style: solid;
     border-bottom-width: 0.4em;
     padding-bottom: 0.4em; /*my own. without it, grey line shifts*/
-    background-color: oklch(from var(--color-accent) 95% 5% h)
+    /* background-color: oklch(from var(--color-accent) 95% 5% h) */
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 
 form {
@@ -100,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid oklch(80% 3% 200);
     border-radius: 10px;
     margin-bottom: 0.5em;
-    background-color: oklch(95% 0% 0);
+    /* background-color: oklch(95% 0% 0); */
 }
 
 .resume-page h2 {
@@ -114,5 +122,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .resume-page time {
     font-style: italic; 
-    color: oklch(50% 3% 200); 
+    color: var(--border-color); 
 }
+
+.color-scheme {
+    position: absolute;
+    top: 1rem; 
+    right: 1rem; 
+    font-size: 80%;
+    font-family: inherit;
+}
+
