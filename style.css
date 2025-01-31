@@ -133,3 +133,28 @@ h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
 }
 
+#profile-stats {
+    grid-row: 1; 
+    text-align: center; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#profile-stats dl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+#profile-stats dt {
+    font-weight: bold; 
+    color: gray; 
+}
+
+#profile-stats dd {
+    font-size: 1.5rem; 
+    grid-row: 2; 
+    text-align: center; 
+
+}
+
