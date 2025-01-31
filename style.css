@@ -158,3 +158,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+article time {
+    font-weight: bold; 
+}
+
+article p {
+    margin-top: 30px; 
+}
