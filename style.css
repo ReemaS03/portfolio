@@ -165,3 +165,9 @@ article time {
 article p {
     margin-top: 30px; 
 }
+
+.latest-projects-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}

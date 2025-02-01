@@ -1,75 +1,74 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "year": 2024,
+        "title": "Portfolio Website",
+        "year": 2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellendus provident ratione consectetur beatae. Repellat quis perferendis modi ut suscipit vero numquam libero unde dolor, odit, molestias maxime, delectus quo."
+        "description": "A personal website to showcase projects, resume, and contact information."
     },
     {
-        "title": "Temporibus doloribus ullam et.",
+        "title": "Movie Recommendation System",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "A machine learning model to recommend movies based on user preferences."
+    },
+    {
+        "title": "Budget Manager",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "A simple application to help users track their expenses and savings over time."
+    },
+    {
+        "title": "Tic-Tac-Toe",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Created a two-player Tic-Tac-Toe game. Designed a simple interface and implemented logic to determine the winner or a draw."
+    },
+    {
+        "title": "Evaluating the Relationship Between the Amount of Protein and Average Rating of Recipes",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "This data science project explores the relationship between the protein content of recipes and their average ratings. Using datasets from food.com containing recipe details and user ratings since 2008, this analysis investigates whether high-protein recipes are rated higher due to their perceived health benefits."
+    },
+    {
+        "title": "To-Do List App",
         "year": 2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Nesciunt perferendis reiciendis repudiandae explicabo natus consequatur itaque libero sed iste, distinctio eius voluptates doloremque fuga exercitationem. Excepturi facere similique, inventore corporis impedit porro laudantium sint libero nulla possimus quibusdam?"
+        "description": "A mobile app that allows users to create, organize, and manage tasks with notification reminders."
     },
     {
-        "title": "Ut cumque neque repellat?",
-        "year": 2024,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quibusdam fugiat ullam fugit odio voluptatibus pariatur ut quidem culpa, ex nostrum? At quos reiciendis laudantium, sint tempora optio numquam dolores quod labore rem. Nihil ab sunt eaque accusamus quam."
-    },
-    {
-        "title": "Neque nobis aliquid omnis?",
-        "year": 2024,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Dolor, neque voluptatibus at officiis quo explicabo harum fugiat ut aut, alias cumque, cupiditate culpa laborum tenetur impedit quasi doloremque pariatur sit repellendus unde nam tempore exercitationem? Fugit, esse veritatis."
-    },
-    {
-        "title": "Inventore voluptatem facere sunt.",
+        "title": "Analyzing the Impact of Movie Budgets on Audience and Critic Ratings: A Study of Best Picture Winners",
         "year": 2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Consectetur quia, quam, et nesciunt quis eos aliquam sunt corrupti debitis vero tempora? Praesentium eos dolorum assumenda molestias officiis eius consectetur! Laudantium repellendus minus pariatur magni ipsa quia fuga animi."
+        "description": "Analyzing the Impact of Movie Budgets on Audience and Critic Ratings: A Study of Best Picture Winners."
     },
     {
-        "title": "Veniam, autem! Reiciendis, beatae!",
+        "title": "Predicting Movie Genres Based on Plot Summaries",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Used machine learning models to classify movies into genres based on their plot summaries. Trained the model using a dataset of movies with labeled genres."
+    },
+    {
+        "title": "Nightcrawler Chatbot",
         "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Debitis deleniti sapiente aut aliquid minus corporis, maxime veritatis odio quam amet. Quam nemo enim minus iure beatae? Alias eum quidem earum velit porro necessitatibus dolorem ipsam quam laborum nostrum!"
+        "description": "A conversational chatbot built to provide detailed information about the movie Nightcrawler. Users can interact with the bot by asking questions about the movie's release date, genre, plot, fun facts, box office performance, cast, director, and more. The chatbot mimics natural human conversation, offering responses as if texting with a friend."
     },
     {
-        "title": "Eligendi amet asperiores deleniti!",
+        "title": "Basic Calculator",
         "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Aut, consequuntur voluptate! Architecto mollitia voluptates eveniet repellat, beatae dolorum ipsum, nisi, eos sequi nesciunt tempore soluta aliquid deserunt blanditiis. Natus deleniti laudantium fuga omnis, dolorem labore optio similique debitis."
+        "description": "Developed a calculator for basic arithmetic operations."
     },
     {
-        "title": "Reprehenderit iusto possimus ea?",
+        "title": "GPA Calculator",
+        "year": 2022,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Built a tool to calculate semester and cumulative GPAs based on user input for grades and credit hours."
+    },
+    {
+        "title": "Grade Calculator",
         "year": 2021,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Consectetur deserunt nesciunt itaque repudiandae tempore odio similique cum, inventore animi corrupti repellat adipisci quae dicta voluptatibus cumque veritatis, id ducimus nostrum nulla harum in, officiis fugiat. Doloribus, corrupti assumenda."
-    },
-    {
-        "title": "Quae omnis dolorum quasi.",
-        "year": 2021,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quae, assumenda. Expedita debitis temporibus voluptates facere quia dignissimos voluptatem modi sapiente. Suscipit asperiores rerum aliquid harum dolore eius optio nulla tempore sit error, tenetur esse, molestias reprehenderit beatae nesciunt."
-    },
-    {
-        "title": "Quis tenetur perferendis nihil.",
-        "year": 2023,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ipsam, perspiciatis illum. Exercitationem doloremque culpa at provident molestiae iure, ut cumque natus ratione repellat sit fugiat, facilis recusandae quidem laudantium numquam sapiente officiis nulla nesciunt! Debitis consectetur est omnis?"
-    },
-    {
-        "title": "Ut provident aut optio.",
-        "year": 2022,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Totam, temporibus, voluptas, at neque facilis minus magnam tempore dicta accusantium amet nisi aspernatur a ut veniam soluta repudiandae dolores doloribus ipsum nobis harum. Ad earum repudiandae debitis voluptates veritatis?"
-    },
-    {
-        "title": "Possimus sit corrupti nobis!",
-        "year": 2024,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Vero corrupti beatae ipsum expedita ipsam quisquam sed sequi assumenda tempore ad ea, animi illo id sapiente quam in molestias maiores dolores nobis. Ipsam aut mollitia ratione vitae quidem officia!"
+        "description": "Designed a tool that calculates final grades based on assignment weights and grades entered by the user."
     }
 ]
-
