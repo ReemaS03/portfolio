@@ -171,3 +171,52 @@ article p {
     margin-bottom: 30px;
     margin-top: 20px;
 }
+
+svg {
+    max-width: 20em;
+    margin-block: 2em;
+  
+    /* Do not clip shapes outside the viewBox */
+    overflow: visible;
+}
+
+.legend {
+    padding: 1em; 
+    border: 1px solid #ccc; 
+    gap: 0.5em; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+    flex: 1;
+    border-radius: 0.5em; 
+}
+
+.legend li {
+    display: flex;
+    align-items: center; 
+    gap: 0.3em; 
+}
+
+.legend .swatch {
+    width: 1em;
+    background-color: var(--color); 
+    aspect-ratio: 1 / 1;  
+    border-radius: 50%; 
+}
+
+.legend li em {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    gap: 1em; 
+    align-items: center;
+}
+
+.searchBar {
+    width: 100%; 
+    padding: 0.5em; 
+    border: 1px solid #ccc;
+    border-radius: 0.5em; 
+    margin-bottom: 1em; 
+}
