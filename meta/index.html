@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <script type="module" src="../global.js"></script>
-    
-
     <header>
         <h1>Meta</h1>
     </header>
     <p>This page includes stats about the code of this website.</p>
 
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <script type="module" src="../global.js"></script>
+    <script src="main.js" type="module"></script>
+    <div id="stats"></div>
+
+    <h2>Commits by time of day</h2>
+    <div id="chart"></div>
 
 </body>
 </html>
