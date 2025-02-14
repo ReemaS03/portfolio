@@ -3,6 +3,8 @@ let commits = [];  // Declare commits as a global variable
 let xScale;
 let yScale;
 async function loadData() {
+    const tooltip = document.getElementById('commit-tooltip').hidden = true; // added to make tooltip disappear at the start
+
     data = await d3.csv('loc.csv', (row) => ({
         ...row,
         line: Number(row.line), // or just +row.line
@@ -19,6 +21,7 @@ async function loadData() {
 
 document.addEventListener('DOMContentLoaded', async () => {
   await loadData();
+
   createScatterplot();
   brushSelector();
 });
@@ -110,6 +113,7 @@ function displayStats() {
 }
 
 function createScatterplot() {
+
       // Sort commits by total lines in descending order
     const sortedCommits = d3.sort(commits, (d) => -d.totalLines);
 
@@ -218,8 +222,8 @@ function updateTooltipContent(commit) {
 }
 
 function updateTooltipVisibility(isVisible) {
-const tooltip = document.getElementById('commit-tooltip');
-tooltip.hidden = !isVisible;
+    const tooltip = document.getElementById('commit-tooltip');
+    tooltip.hidden = !isVisible;
 }
 
 function updateTooltipPosition(event) {
