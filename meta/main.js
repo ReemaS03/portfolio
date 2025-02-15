@@ -114,7 +114,7 @@ function displayStats() {
 
 function createScatterplot() {
 
-      // Sort commits by total lines in descending order
+    // Sort commits by total lines in descending order
     const sortedCommits = d3.sort(commits, (d) => -d.totalLines);
 
     // Use sortedCommits in your selection instead of commits
@@ -140,8 +140,9 @@ function createScatterplot() {
     const rScale = d3
     .scaleSqrt() // Change only this line
     .domain([minLines, maxLines])
-    .range([2, 30]);
+    .range([5, 30]);
 
+    
     dots
         .selectAll('circle')
         .data(sortedCommits)

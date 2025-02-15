@@ -173,7 +173,7 @@ article p {
 }
 
 svg {
-    /* max-width: 20em; */
+    max-width: 20em;
     margin-block: 2em;
   
     /* Do not clip shapes outside the viewBox */
@@ -341,4 +341,15 @@ animation: marching-ants 2s linear infinite;
 
 circle.selected {
     fill: #ff6b6b;
+}
+
+#commit-tooltip {
+    display: none; 
+}
+
+#commit-tooltip:not([hidden]) {
+    display: block; 
+}
+#chart svg {
+    max-width: 80%;
 }
