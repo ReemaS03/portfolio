@@ -353,3 +353,13 @@ circle.selected {
 #chart svg {
     max-width: 80%;
 }
+
+.projects img {
+    max-width: 290px; 
+    height: auto;
+}
+
+.project-link {
+    margin-top: 10em;       /* Adds some space above the link */
+}
+

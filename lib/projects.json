@@ -70,5 +70,12 @@
         "year": 2021,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Designed a tool that calculates final grades based on assignment weights and grades entered by the user."
+    },
+    {
+        "title": "Bike Watching in Boston",
+        "year": 2025,
+        "image": "../images/bikewatching.png",
+        "description": "Designed an interactive visualization about the bike stations and their traffic in the Boston area.",
+        "url": "https://reemas03.github.io/bikewatching/"
     }
 ]
