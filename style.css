@@ -308,12 +308,26 @@ dl.info dd {
     top: 1em;
     left: 1em;
 }
-
+/* 
 circle {
     transition: 200ms;
     transform-origin: center;
     transform-box: fill-box;
-}
+    
+} */
+circle {
+    transition: 200ms;
+    transform-origin: center;
+    transform-box: fill-box;
+    transition: all 200ms ease-in-out;
+    
+    @starting-style {
+      r: 0;
+    }
+  
+    transition: all 200ms, r calc(var(--r) * 100ms);
+  }
+  
 
 circle:hover {
     transform: scale(1.5);
@@ -359,7 +373,24 @@ circle.selected {
     height: auto;
 }
 
-.project-link {
-    margin-top: 10em;       /* Adds some space above the link */
+#sliderContainer {
+    display: flex;  
+    width: 100%;  
+    flex-direction: column;
+    flex: 1 ;
+    align-items: baseline;
+}
+
+
+#selectedTime {
+    margin-left: auto;
+}
+
+#commitSlider {
+    flex-grow: 1;  
+    width: 100%; 
+    margin: 0 10px;
+    padding: 10px;
+    width: 80vw;
 }
 
